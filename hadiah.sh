@@ -51,7 +51,6 @@ read january
 echo "[*] Data sedang di Proses..." | lolcat
 sleep 3
 clear
-fi
 if [ $hadiah = n ] || [ $hadiah = N ]
 then
 clear
@@ -59,7 +58,7 @@ figlet Hehe | lolcat
 echo "Terimakasih sudah memasukan data" | lolcat
 sleep 1
 exit
-fi
+
 sleep 1
 toilet -f standard -F gay "HBD syg"
 sleep 1
@@ -89,8 +88,6 @@ read Y
 if [ $Y = Y ] || [ $Y = y ]
 then
 figlet Luffyu | lolcat
-fi
-fi
 if [ $hehe = n ] || [ $hehe = N ]
 then
 clear
@@ -98,4 +95,3 @@ figlet Hehe | lolcat
 echo "Terimakasih, luffyu" | lolcat
 sleep 1
 exit
-fi
